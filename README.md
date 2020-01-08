@@ -34,12 +34,15 @@
 
 3. 在本机上执行上面的命令
    > windos下：
-   1.WIN键(windows键)+R键,输入"cmd"，确定，调出命令提示符
-   2.输入对应系统的配置指令
+   
+   > 1.WIN键(windows键)+R键,输入"cmd"，确定，调出命令提示符
+   
+   > 2.输入对应系统的配置指令
 
 ## III. 使用BYRBT
 
 1. 配置完成后应该就可以登陆到BYRBT的网站 https://bt.byr.cn/
 2. 使用utorrent下载种子时可能无法下载，因为DNS无法解析
    > 需要手动在hosts文件("c:\windows\system32\drivers\etc\hosts")中添加
-   2001:da8:215:4078:250:56ff:fe97:654d tracker.byr.cn
+   
+   > 2001:da8:215:4078:250:56ff:fe97:654d tracker.byr.cn
