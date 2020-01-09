@@ -7,6 +7,7 @@
 1. 注册Tunnel Broker并登陆
    注册tunnel broker账号，注册页 https://www.tunnelbroker.net/
    ![login](/pic/login.jpg)
+   
    用邮箱里收到的用户名和密码登录
 
 
