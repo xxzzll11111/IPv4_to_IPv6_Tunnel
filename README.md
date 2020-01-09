@@ -43,5 +43,5 @@
 
 1. 配置完成后应该就可以登陆到BYRBT的网站 https://bt.byr.cn/
 2. 使用utorrent下载种子时可能无法下载，因为DNS无法解析
-   > 需要手动在hosts文件("c:\windows\system32\drivers\etc\hosts")中添加
+   > 需要手动在hosts文件("c:\windows\system32\drivers\etc\hosts")中添加 <br/>
    > 2001:da8:215:4078:250:56ff:fe97:654d tracker.byr.cn
