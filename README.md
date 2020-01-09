@@ -28,15 +28,15 @@
 2. 选择你的操作系统类型，可以看到配置指令
    注意如果使用了路由器，要将外网IP换为内网IP
    
-   > windos内网IP查看方式：
-   > > 1.WIN键(windows键)+R键,输入"cmd"，确定，调出命令提示符
-   > > 2.在命令提示符里输入“ipconfig"回车，"IPv4地址"即是本机的内网IP地址
+   > windos内网IP查看方式：<br/>
+   > 1. WIN键(windows键)+R键,输入"cmd"，确定，调出命令提示符<br/>
+   > 2. 在命令提示符里输入“ipconfig"回车，"IPv4地址"即是本机的内网IP地址
    
    ![Example Configurations](/pic/system.png)
 
 3. 在本机上执行上面的命令
-   > windos下：
-   > 1.WIN键(windows键)+R键,输入"cmd"，确定，调出命令提示符
+   > windos下：<br/>
+   > 1.WIN键(windows键)+R键,输入"cmd"，确定，调出命令提示符<br/>
    > 2.输入对应系统的配置指令
 
 ## III. 使用BYRBT
