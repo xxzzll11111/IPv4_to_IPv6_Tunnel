@@ -22,6 +22,7 @@
 ## II. 本地配置
 
 1. 选择Example Configurations
+
    ![Example Configurations](/pic/Configurations.png)
 
 2. 选择你的操作系统类型，可以看到配置指令
