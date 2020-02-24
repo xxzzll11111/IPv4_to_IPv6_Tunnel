@@ -37,6 +37,12 @@
    > 1.WIN键(windows键)+R键,输入"cmd"，确定，调出命令提示符
    > 2.输入对应系统的配置指令
 
+>输入命令时总提示有重名，原因是之前用cmd指令在Windows系统中曾经输入过建立隧道指令,而旧指令没被删除,所以会有 [提示有重名]，尝试用以下两句cmd指令删除已经存在的tunnelbroker的IPv6隧道，然后重启电脑就可以重新添加了
+```
+netsh interface ipv6 delete interface ip6tunnel
+netsh interface ipv6 reset all
+```
+
 ## III. 使用BYRBT
 
 1. 配置完成后应该就可以登陆到BYRBT的网站 https://bt.byr.cn/
