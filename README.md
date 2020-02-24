@@ -7,6 +7,7 @@
 1. 注册Tunnel Broker并登陆
    注册tunnel broker账号，注册页 https://www.tunnelbroker.net/
    ![login](/pic/login.jpg)
+   
    用邮箱里收到的用户名和密码登录
 
 
@@ -21,21 +22,22 @@
 ## II. 本地配置
 
 1. 选择Example Configurations
+
    ![Example Configurations](/pic/Configurations.png)
 
 2. 选择你的操作系统类型，可以看到配置指令
    注意如果使用了路由器，要将外网IP换为内网IP
    
-   > windos内网IP查看方式：
-   > 1.WIN键(windows键)+R键,输入"cmd"，确定，调出命令提示符
-   > 2.在命令提示符里输入“ipconfig"回车，"IPv4地址"即是本机的内网IP地址
+   > windos内网IP查看方式：<br/>
+   > 1. WIN键(windows键)+R键,输入"cmd"，确定，调出命令提示符<br/>
+   > 2. 在命令提示符里输入“ipconfig"回车，"IPv4地址"即是本机的内网IP地址
    
    ![Example Configurations](/pic/system.png)
 
 3. 在本机上执行上面的命令
-   > windos下：
-   > 1.WIN键(windows键)+R键,输入"cmd"，确定，调出命令提示符
-   > 2.输入对应系统的配置指令
+   > windos下：<br/>
+   > 1. WIN键(windows键)+R键,输入"cmd"，确定，调出命令提示符<br/>
+   > 2. 输入对应系统的配置指令
 
 >输入命令时总提示有重名，原因是之前用cmd指令在Windows系统中曾经输入过建立隧道指令,而旧指令没被删除,所以会有 [提示有重名]，尝试用以下两句cmd指令删除已经存在的tunnelbroker的IPv6隧道，然后重启电脑就可以重新添加了
 ```
@@ -47,5 +49,5 @@ netsh interface ipv6 reset all
 
 1. 配置完成后应该就可以登陆到BYRBT的网站 https://bt.byr.cn/
 2. 使用utorrent下载种子时可能无法下载，因为DNS无法解析
-   > 需要手动在hosts文件("c:\windows\system32\drivers\etc\hosts")中添加
+   > 需要手动在hosts文件("c:\windows\system32\drivers\etc\hosts")中添加 <br/>
    > 2001:da8:215:4078:250:56ff:fe97:654d tracker.byr.cn
